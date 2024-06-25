@@ -1,8 +1,6 @@
+![uio](https://github.com/Piyusss/SaaS-FlowEz/assets/122628426/b22a9fe1-8c2a-4c10-98af-5b807184e626)
 
-<img width="1616" alt="temp-banner" src="https://github.com/Piyusss/SaaS-FlowEz/assets/122628426/b75ad960-2b3d-4f39-87f4-30d7b7f465d5">
-
-
-SaaS Automation Builder Project<br>
+<h1>SaaS Automation Builder Project</h1><br>
 <br>
 <h1>Overview</h1><br>
 🤯Introducing our cutting-edge B2C SaaS Automation Builder, a powerful tool designed to streamline and automate your digital workflows. This comprehensive platform offers seamless integration with popular applications, enabling users to create sophisticated automation flows with ease. Here’s a closer look at the standout features of our automation builder:<br>
