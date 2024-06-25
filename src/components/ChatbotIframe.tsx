@@ -21,12 +21,12 @@ const ChatbotIframe = () => {
       }
     `);
 
-    iframe.src = "";
+    iframe.src = "https://jj-smartrep.vercel.app/chatbot";
     iframe.classList.add('chat-frame');
     document.body.appendChild(iframe);
 
     const handleMessage = (e: MessageEvent) => {
-      if (e.origin !== "") return null;
+      if (e.origin !== "https://jj-smartrep.vercel.app") return null;
       try {
         const dimensions = JSON.parse(e.data);
         iframe.style.width = dimensions.width + 'px';
@@ -34,18 +34,19 @@ const ChatbotIframe = () => {
       } catch (error) {
         console.error('Invalid message data:', e.data);
       }
-      iframe.contentWindow?.postMessage("53145645-0e45-4c8e-bd01-d71c1ca174cc", "");
+      iframe.contentWindow?.postMessage("53145645-0e45-4c8e-bd01-d71c1ca174cc", "https://jj-smartrep.vercel.app/");
     };
 
     window.addEventListener("message", handleMessage);
 
+    // Cleanup the event listener and iframe on component unmount
     return () => {
       window.removeEventListener("message", handleMessage);
       document.body.removeChild(iframe);
     };
   }, []);
 
-  return null; 
+  return null; // This component does not render anything itself
 };
 
 export default ChatbotIframe;
