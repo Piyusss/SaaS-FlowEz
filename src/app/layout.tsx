@@ -6,7 +6,7 @@ import { ClerkProvider } from '@clerk/nextjs'
 import ModalProvider from '@/providers/modal-provider'
 import { Toaster } from '@/components/ui/sonner'
 import { BillingProvider } from '@/providers/billing-provider'
-import ChatbotIframe from '@/components/ChatbotIframe' // Adjust the path as needed
+// import ChatbotIframe from '@/components/ChatbotIframe' // Adjust the path as needed
 
 const font = DM_Sans({ subsets: ['latin'] })
 
@@ -38,7 +38,7 @@ export default function RootLayout({
                 <Toaster />
               </ModalProvider>
             </BillingProvider>
-            <ChatbotIframe />
+{/*             <ChatbotIframe /> */}
 
           </ThemeProvider>
         </body>
