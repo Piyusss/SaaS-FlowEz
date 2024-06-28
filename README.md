@@ -3,7 +3,7 @@
 <h1>SaaS Automation Builder Project</h1>
 
 <h1>Overview</h1><br>
-🤯Introducing our cutting-edge B2C SaaS Automation Builder, a powerful tool designed to streamline and automate your digital workflows. This comprehensive platform offers seamless integration with popular applications, enabling users to create sophisticated automation flows with ease. Here’s a closer look at the standout features of our automation builder:<br>
+🤯Introducing our cutting-edge B2C SaaS Automation Builder, a powerful tool designed to streamline and automate your digital workflows. This comprehensive platform offers seamless integration with popular applications, enabling users to create sophisticated automation flows with ease. Here’s a closer look at the standout features of our automation builder<br>
 
 <h1>Key Features</h1><br>
 Google Drive Integration<br>
