@@ -26,19 +26,19 @@ const Footer = () => {
               className="hover:text-blue-700">
                 <FaFacebookF size={22}/>
             </Link>
-            <Link href="https://twitter.com"
+            <Link href="https://x.com/piyususs"
               className="hover:text-blue-300">
                 <FaTwitter size={22}/>
             </Link>
-            <Link href="https://instagram.com"
+            <Link href="https://instagram.com/piyusus"
               className="hover:text-pink-500">
                 <FaInstagram size={22}/>
             </Link>
-            <Link href="https://www.linkedin.com"
+            <Link href="https://www.linkedin.com/in/piyush-raj-74211825b"
               className="hover:text-blue-500">
               <FaLinkedinIn size={22}/>
             </Link>
-            <Link href="https://github.com"
+            <Link href="https://github.com/Piyusss"
               className="hover:text-gray-500">
               <FaGithub size={22}/>
             </Link>
